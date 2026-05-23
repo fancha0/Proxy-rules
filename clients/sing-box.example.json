@@ -1,0 +1,19 @@
+{
+  "route": {
+    "rule_set": [
+      {
+        "tag": "gemini",
+        "type": "remote",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-sing-box-core.json",
+        "download_detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": "gemini",
+        "outbound": "proxy"
+      }
+    ]
+  }
+}
