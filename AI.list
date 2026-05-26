@@ -1,0 +1,287 @@
+# NAME: AI
+# AUTHOR: 自用 AI 分流规则
+# UPDATED: 2026-05-09
+# TYPE: Surge Rule Set
+# DESC: ChatGPT / Claude / Gemini / Perplexity / Copilot / Poe / Grok / DeepSeek / Midjourney / Cursor / HuggingFace 等 AI 服务
+
+# ========== OpenAI / ChatGPT ==========
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+
+
+# ========== OpenAI Codex 精简版 ==========
+DOMAIN,codex.chatgpt.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+
+# OpenAI 相关接口
+DOMAIN,chatgpt.com
+DOMAIN,chat.openai.com
+DOMAIN,api.openai.com
+DOMAIN,auth.openai.com
+DOMAIN,cdn.openai.com
+DOMAIN,files.oaiusercontent.com
+DOMAIN,ab.chatgpt.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,android.chat.openai.com
+
+# ========== Claude / Anthropic ==========
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+
+DOMAIN,claude.ai
+DOMAIN,api.anthropic.com
+DOMAIN,console.anthropic.com
+
+# ========== Google Gemini / Bard / AI Studio ==========
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,makersuite.google.com
+
+# ========== Google AI 相关资源 ==========
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,googledeepmind.com
+
+# ========== Microsoft Copilot / Bing AI ==========
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,sydney.bing.com
+
+DOMAIN,copilot.microsoft.com
+DOMAIN,www.bing.com
+DOMAIN,sydney.bing.com
+DOMAIN,edgeservices.bing.com
+
+# ========== GitHub Copilot ==========
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+
+# ========== Perplexity ==========
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+DOMAIN,perplexity.ai
+DOMAIN,www.perplexity.ai
+DOMAIN,api.perplexity.ai
+
+# ========== Poe ==========
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,quora.com
+
+DOMAIN,poe.com
+DOMAIN,www.poe.com
+
+# ========== xAI / Grok ==========
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+DOMAIN,x.ai
+DOMAIN,grok.com
+DOMAIN,www.grok.com
+
+# ========== DeepSeek ==========
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.ai
+
+DOMAIN,chat.deepseek.com
+DOMAIN,api.deepseek.com
+DOMAIN,platform.deepseek.com
+
+# ========== Midjourney ==========
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,cdn.midjourney.com
+
+DOMAIN,www.midjourney.com
+DOMAIN,api.midjourney.com
+DOMAIN,cdn.midjourney.com
+
+# ========== Stability AI ==========
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,stabilityai.com
+
+DOMAIN,api.stability.ai
+DOMAIN,platform.stability.ai
+
+# ========== Leonardo AI ==========
+DOMAIN-SUFFIX,leonardo.ai
+
+DOMAIN,app.leonardo.ai
+DOMAIN,api.leonardo.ai
+
+# ========== Runway ==========
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runwayml.cloud
+
+DOMAIN,app.runwayml.com
+DOMAIN,api.runwayml.com
+
+# ========== Suno AI ==========
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,suno.ai
+
+DOMAIN,suno.com
+DOMAIN,www.suno.com
+DOMAIN,studio.suno.com
+
+# ========== Udio ==========
+DOMAIN-SUFFIX,udio.com
+
+DOMAIN,www.udio.com
+
+# ========== ElevenLabs ==========
+DOMAIN-SUFFIX,elevenlabs.io
+
+DOMAIN,elevenlabs.io
+DOMAIN,api.elevenlabs.io
+
+# ========== Hugging Face ==========
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,huggingface.com
+
+DOMAIN,huggingface.co
+DOMAIN,cdn-lfs.huggingface.co
+DOMAIN,cdn-lfs-us-1.huggingface.co
+DOMAIN,cdn-lfs-eu-1.huggingface.co
+DOMAIN,cdn-lfs.hf.co
+
+# ========== Replicate ==========
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
+
+DOMAIN,replicate.com
+DOMAIN,api.replicate.com
+
+# ========== Cursor ==========
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,anysphere.co
+
+DOMAIN,cursor.sh
+DOMAIN,cursor.com
+DOMAIN,api2.cursor.sh
+DOMAIN,api3.cursor.sh
+DOMAIN,repo42.cursor.sh
+
+# ========== Windsurf / Codeium ==========
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,windsurf.com
+
+DOMAIN,codeium.com
+DOMAIN,windsurf.com
+DOMAIN,server.codeium.com
+
+# ========== Replit AI ==========
+DOMAIN-SUFFIX,replit.com
+DOMAIN-SUFFIX,replit.dev
+
+DOMAIN,replit.com
+DOMAIN,api.replit.com
+
+# ========== Notion AI ==========
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.com
+
+DOMAIN,www.notion.so
+DOMAIN,api.notion.com
+
+# ========== Canva AI ==========
+DOMAIN-SUFFIX,canva.com
+
+DOMAIN,canva.com
+DOMAIN,www.canva.com
+
+# ========== Character AI ==========
+DOMAIN-SUFFIX,character.ai
+
+DOMAIN,character.ai
+DOMAIN,beta.character.ai
+
+# ========== You.com AI ==========
+DOMAIN-SUFFIX,you.com
+
+DOMAIN,you.com
+DOMAIN,api.you.com
+
+# ========== Phind ==========
+DOMAIN-SUFFIX,phind.com
+
+DOMAIN,www.phind.com
+
+# ========== Mistral AI ==========
+DOMAIN-SUFFIX,mistral.ai
+
+DOMAIN,chat.mistral.ai
+DOMAIN,api.mistral.ai
+DOMAIN,console.mistral.ai
+
+# ========== Cohere ==========
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,cohere.ai
+
+DOMAIN,api.cohere.ai
+DOMAIN,dashboard.cohere.com
+
+# ========== Together AI ==========
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,together.xyz
+
+DOMAIN,api.together.xyz
+DOMAIN,chat.together.ai
+
+# ========== Groq ==========
+DOMAIN-SUFFIX,groq.com
+
+DOMAIN,console.groq.com
+DOMAIN,api.groq.com
+
+# ========== OpenRouter ==========
+DOMAIN-SUFFIX,openrouter.ai
+
+DOMAIN,openrouter.ai
+DOMAIN,api.openrouter.ai
+
+# ========== Fireworks AI ==========
+DOMAIN-SUFFIX,fireworks.ai
+
+DOMAIN,api.fireworks.ai
+DOMAIN,app.fireworks.ai
+
+# ========== Ollama 官网 / 模型库 ==========
+DOMAIN-SUFFIX,ollama.com
+DOMAIN-SUFFIX,ollama.ai
+
+DOMAIN,ollama.com
+DOMAIN,registry.ollama.ai
+
+# ========== LM Studio ==========
+DOMAIN-SUFFIX,lmstudio.ai
+
+DOMAIN,lmstudio.ai
