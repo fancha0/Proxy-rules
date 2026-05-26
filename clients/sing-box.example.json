@@ -5,7 +5,7 @@
         "tag": "gemini",
         "type": "remote",
         "format": "source",
-        "url": "https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-sing-box-core.json",
+        "url": "https://raw.githubusercontent.com/fancha0/Proxy-rules/main/rules/gemini-sing-box-core.json",
         "download_detour": "direct"
       }
     ],

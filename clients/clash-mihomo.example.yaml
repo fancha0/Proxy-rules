@@ -1,4 +1,4 @@
-# Replace <OWNER>/<REPO> and the Gemini policy group name before use.
+# Replace the Gemini policy group name before use.
 
 proxy-groups:
   - name: Gemini
@@ -11,7 +11,7 @@ rule-providers:
   gemini:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-core.yaml
+    url: https://raw.githubusercontent.com/fancha0/Proxy-rules/main/rules/gemini-core.yaml
     path: ./ruleset/gemini.yaml
     interval: 86400
 

@@ -27,14 +27,14 @@
 
 ## Clash / Mihomo 用法
 
-把下面片段合并到配置中，并把 `<OWNER>/<REPO>` 替换成你的 GitHub 仓库：
+把下面片段合并到配置中：
 
 ```yaml
 rule-providers:
   gemini:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-core.yaml
+    url: https://raw.githubusercontent.com/fancha0/Proxy-rules/main/rules/gemini-core.yaml
     path: ./ruleset/gemini.yaml
     interval: 86400
 
@@ -49,7 +49,7 @@ rules:
 Surge 示例：
 
 ```ini
-RULE-SET,https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-core.list,Gemini
+RULE-SET,https://raw.githubusercontent.com/fancha0/Proxy-rules/main/rules/gemini-core.list,Gemini
 ```
 
 Shadowrocket / Stash 可以直接导入 `.list` 文件，策略名同样按你的配置替换。
@@ -66,7 +66,7 @@ sing-box 示例：
         "tag": "gemini",
         "type": "remote",
         "format": "source",
-        "url": "https://raw.githubusercontent.com/<OWNER>/<REPO>/main/rules/gemini-sing-box-core.json",
+        "url": "https://raw.githubusercontent.com/fancha0/Proxy-rules/main/rules/gemini-sing-box-core.json",
         "download_detour": "direct"
       }
     ],
