@@ -1,0 +1,92 @@
+# NAME: Gemini
+# AUTHOR: fancha0
+# UPDATED: 2026-06-25
+# TYPE: Surge Rule Set
+# DESC: Google Gemini / Bard / AI Studio / Vertex AI 全分流规则
+# ========== Google Gemini Web ==========
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+# ========== Google AI Studio ==========
+DOMAIN,aistudio.google.com
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+# ========== Gemini Developer API ==========
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+# ========== Vertex AI Gemini API ==========
+DOMAIN,aiplatform.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN,vertexai.googleapis.com
+DOMAIN-SUFFIX,vertexai.googleapis.com
+# ========== Google DeepMind ==========
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,googledeepmind.com
+# ========== Gemini Web Auxiliary Hosts ==========
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,www.googleapis.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,play.google.com
+DOMAIN,ogs.google.com
+DOMAIN,www.google.com
+DOMAIN,apis.google.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN,i.ytimg.com
+DOMAIN,yt3.ggpht.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,maps.gstatic.com
+DOMAIN,lh3.google.com
+DOMAIN,ogads-pa.clients6.google.com
+DOMAIN,csp.withgoogle.com
+DOMAIN,www.googletagmanager.com
+DOMAIN,www.youtube.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,maps.googleapis.com
+DOMAIN,static.doubleclick.net
+DOMAIN,www.gstatic.com
+DOMAIN,td.doubleclick.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,www.google-analytics.com
+DOMAIN,optimizationguide-pa.googleapis.com
+DOMAIN,encrypted-tbn0.gstatic.com
+DOMAIN,encrypted-tbn1.gstatic.com
+DOMAIN,encrypted-tbn2.gstatic.com
+DOMAIN,encrypted-tbn3.gstatic.com
+DOMAIN,streetviewpixels-pa.googleapis.com
+DOMAIN,content-autofill.googleapis.com
+# ========== Google AI Canvas ==========
+DOMAIN,canvas.google.com
+DOMAIN-SUFFIX,canvas.google.com
+# ========== Google Veo / Video Generation ==========
+DOMAIN,videoai.googleapis.com
+DOMAIN,aimax.googleapis.com
+DOMAIN,imagen.googleapis.com
+DOMAIN,imagend.googleapis.com
+# ========== Google Gemma ==========
+DOMAIN,gemmaai.googleapis.com
+# ========== Google ADK (Agent Development Kit) ==========
+DOMAIN,agentdeveloper.googleapis.com
+DOMAIN,adk-api.googleapis.com
+# ========== Google Search (Gemini Integration) ==========
+DOMAIN,geminisearch.googleapis.com
+DOMAIN,lb.google.com
+# ========== Google Workspace (Gemini Integration) ==========
+DOMAIN,gmail.googleapis.com
+DOMAIN,drive.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+DOMAIN,keep.google.com
+DOMAIN,tasks.google.com
+# ========== Google Cloud AI APIs ==========
+DOMAIN,language.googleapis.com
+DOMAIN,speech.googleapis.com
+DOMAIN,vision.googleapis.com
+DOMAIN,translation.googleapis.com
+DOMAIN,documentai.googleapis.com
+DOMAIN,discoveryengine.googleapis.com
+# ========== Gemini CLI ==========
+DOMAIN,geminicli.googleapis.com
+DOMAIN,generativelanguage矿.googleapis.com
