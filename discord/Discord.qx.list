@@ -1,0 +1,22 @@
+# Discord 分流规则 (Quantumult X filter 格式)
+# 用法: [filter_remote] 中引用本文件, 策略如 tag=Discord, force-policy=Proxy
+HOST,discord.com,Proxy
+HOST-SUFFIX,discord.com,Proxy
+HOST-SUFFIX,discord.gg,Proxy
+HOST-SUFFIX,discordapp.com,Proxy
+HOST-SUFFIX,discordapp.net,Proxy
+HOST-SUFFIX,discord.co,Proxy
+HOST-SUFFIX,discord.media,Proxy
+HOST-SUFFIX,discordcdn.com,Proxy
+HOST-SUFFIX,discord.dev,Proxy
+HOST-SUFFIX,discord.gift,Proxy
+HOST-SUFFIX,discord.gifts,Proxy
+HOST-SUFFIX,discordstatus.com,Proxy
+HOST-SUFFIX,discord-activities.com,Proxy
+HOST-SUFFIX,discordactivities.com,Proxy
+HOST-SUFFIX,discordsays.com,Proxy
+HOST-SUFFIX,discordsez.com,Proxy
+HOST-KEYWORD,discord,Proxy
+IP-CIDR,162.159.128.0/19,Proxy
+IP-CIDR,35.186.224.0/24,Proxy
+IP-CIDR,66.22.192.0/18,Proxy

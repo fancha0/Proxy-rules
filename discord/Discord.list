@@ -1,0 +1,24 @@
+# Discord 分流规则 (Surge / Egern 通用 .list 格式)
+# 域名规则
+DOMAIN,discord.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordsez.com
+DOMAIN-KEYWORD,discord
+
+# IP 段 (Discord 语音/媒体服务器历史使用段，现多走 Cloudflare/Google Cloud，按需启用)
+IP-CIDR,162.159.128.0/19,no-resolve
+IP-CIDR,35.186.224.0/24,no-resolve
+IP-CIDR,66.22.192.0/18,no-resolve
