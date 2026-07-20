@@ -1,1 +1,8 @@
-Too many pairing requests right now~ Please try again later!
+# 国内直连分流规则 (Surge / Egern / Loon 通用格式)
+# 策略建议指向 DIRECT
+# 追加新域名时直接往下面加 DOMAIN-SUFFIX 即可
+
+# Kimi (月之暗面)
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,kimi.moonshot.cn
+DOMAIN-SUFFIX,moonshot.cn
