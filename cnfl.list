@@ -13,3 +13,6 @@ DOMAIN-SUFFIX,lshiya.top
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kimi.moonshot.cn
 DOMAIN-SUFFIX,moonshot.cn
+
+#走直连的emby
+DOMAIN-SUFFIX,goemby.entertang.work
