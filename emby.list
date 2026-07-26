@@ -1,0 +1,13 @@
+# Emby（自建服务器一般直连；emby.media 是官方 Emby Connect 服务）
+DOMAIN-SUFFIX,emby.media
+# 如果你的 Emby 服务器走自己的域名，把下面这行改成你的域名
+# DOMAIN-SUFFIX,你的emby域名.com
+
+# TMDB（刮削海报/元数据用，国内直连不稳定，建议指到代理策略；直连可用就放 cnfl）
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,www.themoviedb.org
+DOMAIN-SUFFIX,shsiis.cloudfisher.cc
+DOMAIN-SUFFIX,bps8m.onyra.cc
