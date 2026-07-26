@@ -2,6 +2,13 @@
 # 策略建议指向 DIRECT
 # 追加新域名时直接往下面加 DOMAIN-SUFFIX 即可
 
+#飞牛
+DOMAIN-SUFFIX,lshiya.top
+
+
+
+
+
 # Kimi (月之暗面)
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kimi.moonshot.cn
