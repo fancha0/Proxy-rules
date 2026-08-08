@@ -14,5 +14,8 @@ DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,kimi.moonshot.cn
 DOMAIN-SUFFIX,moonshot.cn
 
+# 智谱
+DOMAIN-SUFFIX,bigmodel.cn
+
 #走直连的emby
 DOMAIN-SUFFIX,goemby.entertang.work
