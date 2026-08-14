@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "emby.media",
+        "themoviedb.org",
+        "tmdb.org",
+        "api.themoviedb.org",
+        "image.tmdb.org",
+        "www.themoviedb.org",
+        "shsiis.cloudfisher.cc",
+        "bps8m.onyra.cc"
+      ]
+    }
+  ]
+}

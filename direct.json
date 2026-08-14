@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "lshiya.top",
+        "kimi.com",
+        "kimi.moonshot.cn",
+        "moonshot.cn",
+        "bigmodel.cn",
+        "goemby.entertang.work"
+      ]
+    }
+  ]
+}
