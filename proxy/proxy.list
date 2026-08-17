@@ -1,1 +1,10 @@
-都会好的好
+# 通用代理规则 (Surge / Egern / Loon 通用格式)
+# 追加域名时直接新增一行，格式：DOMAIN-SUFFIX,域名
+
+# ===== 影巢 (hdhive) =====
+# 高清影视站点，走代理访问
+DOMAIN-SUFFIX,hdhive.com
+
+# ===== BoxJS =====
+# BoxJS 脚本管理订阅服务，走代理访问
+DOMAIN-SUFFIX,boxjs.com
