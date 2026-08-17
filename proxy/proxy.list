@@ -1,5 +1,54 @@
-# 通用代理规则 (Surge / Egern / Loon 通用格式)
-# 追加域名时直接新增一行，格式：DOMAIN-SUFFIX,域名
+# ============================================================
+# 通用代理规则 · 配置速查表
+# 适用：Surge / Egern / Loon / Quantumult X（同类 list）
+# 维护方式：直接新增一行，注释掉不需要的示例
+#
+# 策略说明：本文件所有规则都走「代理」，通过域名后缀匹配。
+# ============================================================
+
+# ---------- 常用匹配类型速查 ----------
+# DOMAIN,域名                 精确匹配单个域名（不含子域名）
+#   DOMAIN,example.com
+#
+# DOMAIN-SUFFIX,域名          匹配域名及其所有子域名（最常用）
+#   DOMAIN-SUFFIX,example.com
+#
+# DOMAIN-KEYWORD,关键字       域名中包含该关键字即匹配
+#   DOMAIN-KEYWORD,google
+#
+# DOMAIN-WILDCARD,*.域名       通配符匹配，* 代表任意一级
+#   DOMAIN-WILDCARD,*.example.com
+#
+# DOMAIN-REGEX,正则           用正则匹配域名
+#   DOMAIN-REGEX,^.+\.example\.com$
+#
+# IP-CIDR,IP段,/24            匹配 IP 段（仅 IPv4），no-resolve 表示不解析域名
+#   IP-CIDR,183.192.65.0/24,no-resolve
+#
+# IP-CIDR6,/64                匹配 IPv6 段
+#   IP-CIDR6,2001:db8::/32,no-resolve
+#
+# IP-ASN,编号                按 ASN 号码匹配（部分工具支持）
+#   IP-ASN,13335
+#
+# GEOIP,国家代码              按 IP 归属地匹配（部分工具支持）
+#   GEOIP,CN
+#
+# USER-AGENT,字符串           按请求 UA 匹配
+#   USER-AGENT,*WeChat*
+#
+# URL-REGEX,正则              按完整 URL 匹配
+#   URL-REGEX,^https://\w+\.example\.com/
+
+# ---------- 规则策略（本文件如需多策略） ----------
+# DOMAIN-SUFFIX,example.com,DIRECT       指定规则使用 DIRECT（直连）
+# DOMAIN-SUFFIX,example.com,REJECT       指定规则使用 REJECT（拒绝访问）
+# DOMAIN-SUFFIX,example.com,代理组名      走指定策略组/节点
+# （若省略策略，则由工具默认规则决定；本文件统一走代理）
+
+# ============================================================
+# 实际规则
+# ============================================================
 
 # ===== 影巢 (hdhive) =====
 # 高清影视站点，走代理访问
