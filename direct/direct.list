@@ -4,7 +4,9 @@
 
 #飞牛
 DOMAIN-SUFFIX,lshiya.top
-DOMAIN-SUFFIX,share.huamucang.top#聚影
+
+# 聚影
+DOMAIN-SUFFIX,share.huamucang.top
 
 # Kimi (月之暗面)
 DOMAIN-SUFFIX,kimi.com
@@ -16,3 +18,7 @@ DOMAIN-SUFFIX,bigmodel.cn
 
 #走直连的emby
 DOMAIN-SUFFIX,goemby.entertang.work
+
+# LCSign (iOS 签名工具)
+DOMAIN-SUFFIX,lcsignx.com
+DOMAIN-KEYWORD,lcsignx
