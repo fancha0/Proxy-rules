@@ -57,3 +57,7 @@ DOMAIN-SUFFIX,hdhive.com
 # ===== BoxJS =====
 # BoxJS 脚本管理订阅服务，走代理访问
 DOMAIN-SUFFIX,boxjs.com
+
+# ===== PikPak =====
+# PikPak 网盘服务，走代理访问
+DOMAIN-SUFFIX,mypikpak.com
