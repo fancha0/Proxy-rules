@@ -61,3 +61,5 @@ DOMAIN-SUFFIX,boxjs.com
 # ===== PikPak =====
 # PikPak 网盘服务，走代理访问
 DOMAIN-SUFFIX,mypikpak.com
+#openrouter.ai走代理
+DOMAIN-SUFFIX,openrouter.ai
