@@ -1,6 +1,6 @@
 # NAME: Gemini
 # AUTHOR: fancha0
-# UPDATED: 2026-06-25
+# UPDATED: 2026-09-03
 # TYPE: Surge Rule Set
 # DESC: Google Gemini / Bard / AI Studio / Vertex AI 全分流规则
 # ========== Google Gemini Web ==========
@@ -89,4 +89,24 @@ DOMAIN,documentai.googleapis.com
 DOMAIN,discoveryengine.googleapis.com
 # ========== Gemini CLI ==========
 DOMAIN,geminicli.googleapis.com
-DOMAIN,generativelanguage矿.googleapis.com
+# ========== Google 账号与授权（创建/管理 API Key 必需） ==========
+# 缺失会导致登录 AI Studio 时以真实 IP 出网，生成的 API Key 被打上受限地区标记
+DOMAIN,accounts.google.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN,accounts.youtube.com
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN,people-pa.clients6.google.com
+DOMAIN,peoplestack-pa.clients6.google.com
+DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,clients6.google.com
+DOMAIN-SUFFIX,clients6.google.com
+# ========== Google Cloud Console（API Key 配额与项目管理） ==========
+DOMAIN,console.cloud.google.com
+DOMAIN,cloudresourcemanager.googleapis.com
+DOMAIN,cloudconsole-pa.clients6.google.com
+DOMAIN,serviceusage.googleapis.com
+DOMAIN,apikeys.googleapis.com
+DOMAIN,iam.googleapis.com
+DOMAIN,cloudbilling.googleapis.com
+DOMAIN,monitoring.googleapis.com
+DOMAIN-SUFFIX,cloud.google.com
