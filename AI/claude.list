@@ -1,0 +1,45 @@
+# NAME: Claude
+# AUTHOR: fancha0
+# UPDATED: 2026-09-24
+# TYPE: Surge Rule Set
+# DESC: Anthropic Claude 网页端 / API / 桌面客户端 / MCP 全分流规则
+# ========== Claude 核心域名 ==========
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropic.com.cn
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,claudestudio.com
+# ========== Claude 内容与页面资源 ==========
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+# ========== MCP（Model Context Protocol） ==========
+DOMAIN-SUFFIX,modelcontextprotocol.com
+DOMAIN-SUFFIX,modelcontextprotocol.io
+DOMAIN-SUFFIX,modelcontextprotocol.net
+DOMAIN-SUFFIX,modelcontextprotocol.org
+DOMAIN-SUFFIX,mcpservertest.online
+# ========== 账号登录与认证（缺失会导致以真实 IP 出网触发风控） ==========
+DOMAIN,anthropic.auth0.com
+DOMAIN-SUFFIX,auth0.com
+# ========== 官方博客与官网资源 ==========
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
+# ========== 网页端第三方依赖（客服 / 统计 / 监控） ==========
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,cdn.growthbook.io
+DOMAIN,cdn.usefathom.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-KEYWORD,datadog
