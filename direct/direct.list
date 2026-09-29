@@ -22,3 +22,8 @@ DOMAIN-SUFFIX,goemby.entertang.work
 # LCSign (iOS 签名工具)
 DOMAIN-SUFFIX,lcsignx.com
 DOMAIN-KEYWORD,lcsignx
+
+# 抖音电商 CDN
+DOMAIN-SUFFIX,ecombdimg.com
+DOMAIN-SUFFIX,ecombdstatic.com
+DOMAIN-SUFFIX,douyinpic.com
