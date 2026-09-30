@@ -11,4 +11,6 @@ DOMAIN-SUFFIX,image.tmdb.org
 DOMAIN-SUFFIX,www.themoviedb.org
 DOMAIN-SUFFIX,shsiis.cloudfisher.cc
 DOMAIN-SUFFIX,bps8m.onyra.cc
-
+#守候影院
+DOMAIN-SUFFIX,std.cn2gias.uk
+DOMAIN-SUFFIX,lite.cn2gias.uk
