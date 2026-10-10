@@ -2,7 +2,7 @@
 # 策略建议指向 DIRECT
 # 追加新域名时直接往下面加 DOMAIN-SUFFIX 即可
 
-#飞牛
+# 飞牛
 DOMAIN-SUFFIX,lshiya.top
 
 # 聚影
@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,moonshot.cn
 # 智谱
 DOMAIN-SUFFIX,bigmodel.cn
 
-#走直连的emby
+# 走直连的 Emby
 DOMAIN-SUFFIX,goemby.entertang.work
 
 # LCSign (iOS 签名工具)
@@ -27,14 +27,12 @@ DOMAIN-KEYWORD,lcsignx
 DOMAIN-SUFFIX,ecombdimg.com
 DOMAIN-SUFFIX,ecombdstatic.com
 DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,zhishangsoft.com
-#
 DOMAIN-SUFFIX,354500.com
-#热度云
+# 热度云
 DOMAIN-SUFFIX,sviptrader.com
 DOMAIN,cdn.chaoyongbushou.com
 DOMAIN,api.supsaas.com
-#云视频管家
+# 云视频管家
 DOMAIN-SUFFIX,zhishangsoft.com
 DOMAIN-SUFFIX,sucaibdu.com
 DOMAIN-SUFFIX,sucaicloud.com
