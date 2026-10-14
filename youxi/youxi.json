@@ -1,20 +1,18 @@
 {
-  "version": 3,
+  "version": 2,
   "rules": [
     {
       "domain_suffix": [
+        "appsflyersdk.com",
         "hok-dr.intlgame.com",
         "hok.intlgame.com",
         "intlgame.com",
-        "sgameglobal.com",
-        "appsflyersdk.com"
-      ],
-      "domain_keyword": [
         "sgameglobal.com"
       ],
+      "domain_keyword": "sgameglobal.com",
       "ip_cidr": [
-        "183.192.0.0/16",
-        "43.132.0.0/16"
+        "43.132.0.0/16",
+        "183.192.0.0/16"
       ]
     }
   ]

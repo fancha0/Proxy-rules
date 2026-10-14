@@ -1,32 +1,30 @@
 {
-  "version": 3,
+  "version": 2,
   "rules": [
     {
+      "domain": [
+        "api.supsaas.com",
+        "cdn.chaoyongbushou.com"
+      ],
       "domain_suffix": [
-        "lshiya.top",
-        "share.huamucang.top",
-        "kimi.com",
-        "kimi.moonshot.cn",
-        "moonshot.cn",
+        "354500.com",
         "bigmodel.cn",
-        "goemby.entertang.work",
-        "lcsignx.com",
+        "douyinpic.com",
         "ecombdimg.com",
         "ecombdstatic.com",
-        "douyinpic.com",
-        "zhishangsoft.com",
-        "354500.com",
-        "sviptrader.com",
+        "goemby.entertang.work",
+        "kimi.com",
+        "kimi.moonshot.cn",
+        "lcsignx.com",
+        "lshiya.top",
+        "moonshot.cn",
+        "share.huamucang.top",
         "sucaibdu.com",
-        "sucaicloud.com"
+        "sucaicloud.com",
+        "sviptrader.com",
+        "zhishangsoft.com"
       ],
-      "domain": [
-        "cdn.chaoyongbushou.com",
-        "api.supsaas.com"
-      ],
-      "domain_keyword": [
-        "lcsignx"
-      ]
+      "domain_keyword": "lcsignx"
     }
   ]
 }

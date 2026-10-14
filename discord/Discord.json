@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "discord.com"
+      ],
+      "domain_suffix": [
+        "discord.com",
+        "discord.gg",
+        "discordapp.com",
+        "discordapp.net",
+        "discord.co",
+        "discord.media",
+        "discordcdn.com",
+        "discord.dev",
+        "discord.gift",
+        "discord.gifts",
+        "discordstatus.com",
+        "discord-activities.com",
+        "discordactivities.com",
+        "discordsays.com",
+        "discordsez.com"
+      ],
+      "domain_keyword": [
+        "discord"
+      ],
+      "ip_cidr": [
+        "162.159.128.0/19",
+        "35.186.224.0/24",
+        "66.22.192.0/18"
+      ]
+    }
+  ]
+}

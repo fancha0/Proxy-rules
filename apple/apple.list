@@ -12,6 +12,9 @@
 #
 # 去重合并：0 条重复
 # 已剔除：0 条 IP 误转关键字, 0 条高风险条目
+#
+# 注：apple.json / apple.srs 为 sing-box 版本，共 33 条
+#     不含 23 条 USER-AGENT（sing-box 规则集不支持该类型，请继续用 apple.list）
 
 # ---------- DOMAIN-KEYWORD (7) ----------
 DOMAIN-KEYWORD,buy.itunes.apple.com

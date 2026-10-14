@@ -1,18 +1,18 @@
 {
-  "version": 3,
+  "version": 2,
   "rules": [
     {
       "domain_suffix": [
+        "api.themoviedb.org",
+        "bps8m.onyra.cc",
         "emby.media",
+        "image.tmdb.org",
+        "lite.cn2gias.uk",
+        "shsiis.cloudfisher.cc",
+        "std.cn2gias.uk",
         "themoviedb.org",
         "tmdb.org",
-        "api.themoviedb.org",
-        "image.tmdb.org",
-        "www.themoviedb.org",
-        "shsiis.cloudfisher.cc",
-        "bps8m.onyra.cc",
-        "std.cn2gias.uk",
-        "lite.cn2gias.uk"
+        "www.themoviedb.org"
       ]
     }
   ]

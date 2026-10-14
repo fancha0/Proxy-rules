@@ -1,3 +1,8 @@
+# ChatGPT / OpenAI 分流规则（Surge / Egern / Loon 通用 .list）
+#
+# 注：ChatGPT.json / ChatGPT.srs 为 sing-box 版本，共 34 条
+#     不含 1 条 IP-ASN（sing-box 规则集不支持该类型，请继续用 ChatGPT.list）
+
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
