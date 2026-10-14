@@ -1,10 +1,10 @@
 {
-  "version": 2,
+  "version": 3,
   "rules": [
     {
       "domain_suffix": [
-        "boxjs.com",
         "hdhive.com",
+        "boxjs.com",
         "mypikpak.com",
         "openrouter.ai"
       ]

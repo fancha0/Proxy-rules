@@ -2,6 +2,15 @@
   "version": 3,
   "rules": [
     {
+      "domain": [
+        "anthropic.auth0.com",
+        "anthropic-com.ghost.io",
+        "anthropic.com.cdn.cloudflare.net",
+        "servd-anthropic-website.b-cdn.net",
+        "cdn.growthbook.io",
+        "cdn.usefathom.com",
+        "browser-intake-us5-datadoghq.com"
+      ],
       "domain_suffix": [
         "anthropic.com",
         "anthropic.com.cn",
@@ -29,15 +38,6 @@
         "intercomcdn.com",
         "sentry.io",
         "statsigapi.net"
-      ],
-      "domain": [
-        "anthropic.auth0.com",
-        "anthropic-com.ghost.io",
-        "anthropic.com.cdn.cloudflare.net",
-        "servd-anthropic-website.b-cdn.net",
-        "cdn.growthbook.io",
-        "cdn.usefathom.com",
-        "browser-intake-us5-datadoghq.com"
       ],
       "domain_keyword": [
         "datadog"
