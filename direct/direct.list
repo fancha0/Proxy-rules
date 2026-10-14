@@ -36,3 +36,11 @@ DOMAIN,api.supsaas.com
 DOMAIN-SUFFIX,zhishangsoft.com
 DOMAIN-SUFFIX,sucaibdu.com
 DOMAIN-SUFFIX,sucaicloud.com
+
+# 酷安 (Coolapk)
+# 官方域名：www / api / static / account / m / image / developer 均在 coolapk.com 下，走腾讯云 EdgeOne CDN
+DOMAIN-SUFFIX,coolapk.com
+# 如需推送、统计也走直连，取消下面注释（个推 / 友盟，多个 App 共用）
+# DOMAIN-SUFFIX,getui.com
+# DOMAIN-SUFFIX,igexin.com
+# DOMAIN-SUFFIX,umeng.com
