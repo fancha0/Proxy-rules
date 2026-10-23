@@ -3,10 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
-        "hdhive.com",
         "boxjs.com",
+        "hdhive.com",
         "mypikpak.com",
-        "openrouter.ai"
+        "openrouter.ai",
+        "pingme.tel",
+        "pingmelite.com"
       ]
     }
   ]

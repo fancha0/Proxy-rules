@@ -63,3 +63,9 @@ DOMAIN-SUFFIX,boxjs.com
 DOMAIN-SUFFIX,mypikpak.com
 #openrouter.ai走代理
 DOMAIN-SUFFIX,openrouter.ai
+
+# ===== PingMe（虚拟号码 / 接码平台）=====
+# pingme.tel 官网与消息服务，区域节点 hk3/na3/na4 同属该域
+DOMAIN-SUFFIX,pingme.tel
+# PingMe Lite 海外版
+DOMAIN-SUFFIX,pingmelite.com
