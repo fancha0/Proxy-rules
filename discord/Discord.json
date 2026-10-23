@@ -6,21 +6,21 @@
         "discord.com"
       ],
       "domain_suffix": [
-        "discord.com",
-        "discord.gg",
-        "discordapp.com",
-        "discordapp.net",
+        "discord-activities.com",
         "discord.co",
-        "discord.media",
-        "discordcdn.com",
+        "discord.com",
         "discord.dev",
+        "discord.gg",
         "discord.gift",
         "discord.gifts",
-        "discordstatus.com",
-        "discord-activities.com",
+        "discord.media",
         "discordactivities.com",
+        "discordapp.com",
+        "discordapp.net",
+        "discordcdn.com",
         "discordsays.com",
-        "discordsez.com"
+        "discordsez.com",
+        "discordstatus.com"
       ],
       "domain_keyword": [
         "discord"

@@ -2,32 +2,33 @@
   "version": 3,
   "rules": [
     {
-      "domain": [
-        "cdn.chaoyongbushou.com",
-        "api.supsaas.com"
-      ],
       "domain_suffix": [
-        "lshiya.top",
-        "share.huamucang.top",
-        "kimi.com",
-        "kimi.moonshot.cn",
-        "moonshot.cn",
+        "354500.com",
         "bigmodel.cn",
-        "goemby.entertang.work",
-        "lcsignx.com",
+        "binkuang.com",
+        "coolapk.com",
+        "douyinpic.com",
         "ecombdimg.com",
         "ecombdstatic.com",
-        "douyinpic.com",
-        "354500.com",
-        "sviptrader.com",
-        "binkuang.com",
-        "zhishangsoft.com",
+        "goemby.entertang.work",
+        "kimi.com",
+        "kimi.moonshot.cn",
+        "lcsignx.com",
+        "lshiya.top",
+        "moonshot.cn",
+        "share.huamucang.top",
         "sucaibdu.com",
         "sucaicloud.com",
-        "coolapk.com"
+        "sviptrader.com",
+        "tokenrhythm.studio",
+        "zhishangsoft.com"
       ],
       "domain_keyword": [
         "lcsignx"
+      ],
+      "domain": [
+        "api.supsaas.com",
+        "cdn.chaoyongbushou.com"
       ]
     }
   ]
