@@ -69,3 +69,7 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,pingme.tel
 # PingMe Lite 海外版
 DOMAIN-SUFFIX,pingmelite.com
+
+# ===== re0.me =====
+# 资源搜索站点，Cloudflare 防护，走代理访问
+DOMAIN-SUFFIX,re0.me
