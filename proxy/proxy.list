@@ -73,3 +73,6 @@ DOMAIN-SUFFIX,pingmelite.com
 # ===== re0.me =====
 # 资源搜索站点，Cloudflare 防护，走代理访问
 DOMAIN-SUFFIX,re0.me
+
+# PingMe 域名关键词兜底（覆盖未列入的 pingme 相关域名）
+DOMAIN-KEYWORD,pingme
