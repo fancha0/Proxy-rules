@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,pingme.tel
 DOMAIN-SUFFIX,pingmelite.com
 DOMAIN-KEYWORD,pingme
+DOMAIN,api.pingmeapp.net
+DOMAIN,api.revenuecat.com
 
 # re0.me
 DOMAIN-SUFFIX,re0.me
