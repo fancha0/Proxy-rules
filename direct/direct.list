@@ -51,4 +51,5 @@ DOMAIN-SUFFIX,coolapk.com
 # 基元律动
 DOMAIN-SUFFIX,tokenrhythm.studio
 
-
+# iOS 签名站（cert.ioszz.cn）
+DOMAIN-SUFFIX,ioszz.cn
