@@ -10,3 +10,5 @@ DOMAIN-SUFFIX,std.cn2gias.uk
 DOMAIN-SUFFIX,lite.cn2gias.uk
 # 拾光emby（ct.stluma.com / st.stluma.com:31798）
 DOMAIN-SUFFIX,stluma.com
+# 夏天emby（104.250.151.198:2888）
+IP-CIDR,104.250.151.198/32,no-resolve

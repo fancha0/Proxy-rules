@@ -3,17 +3,15 @@
   "rules": [
     {
       "domain_suffix": [
-        "api.themoviedb.org",
         "bps8m.onyra.cc",
         "emby.media",
-        "image.tmdb.org",
         "lite.cn2gias.uk",
         "shsiis.cloudfisher.cc",
         "std.cn2gias.uk",
-        "stluma.com",
-        "themoviedb.org",
-        "tmdb.org",
-        "www.themoviedb.org"
+        "stluma.com"
+      ],
+      "ip_cidr": [
+        "104.250.151.198/32"
       ]
     }
   ]
