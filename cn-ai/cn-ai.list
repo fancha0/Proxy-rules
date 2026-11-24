@@ -1,0 +1,77 @@
+# 国内 AI 服务直连规则集
+# 策略建议：DIRECT
+# 覆盖：DeepSeek / 豆包 / 通义 / 文心 / 智谱 / Kimi / StepFun / MiniMax 等
+
+# ---------- DeepSeek 深度求索 ----------
+DOMAIN-SUFFIX,deepseek.com
+
+# ---------- 字节跳动：豆包 / 火山方舟 / 即梦 ----------
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN,jimeng.jianying.com
+
+# ---------- 阿里：通义千问 / 百炼 ----------
+DOMAIN-SUFFIX,tongyi.aliyun.com
+DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,dashscope.aliyuncs.com
+DOMAIN,bailian.console.aliyun.com
+
+# ---------- 百度：文心一言 / 千帆 ----------
+DOMAIN-SUFFIX,yiyan.baidu.com
+DOMAIN-SUFFIX,ernie.baidu.com
+DOMAIN-SUFFIX,aistudio.baidu.com
+DOMAIN-SUFFIX,qianfan.baidubce.com
+DOMAIN-SUFFIX,aip.baidubce.com
+
+# ---------- 智谱：GLM / 清言 ----------
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,zhipuai.cn
+
+# ---------- 月之暗面：Kimi ----------
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+
+# ---------- 阶跃星辰 StepFun ----------
+DOMAIN-SUFFIX,stepfun.com
+
+# ---------- MiniMax：海螺 AI ----------
+DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,minimax.chat
+DOMAIN-SUFFIX,hailuoai.com
+
+# ---------- 百川智能 ----------
+DOMAIN-SUFFIX,baichuan-ai.com
+
+# ---------- 科大讯飞：星火 ----------
+DOMAIN-SUFFIX,xfyun.cn
+DOMAIN-SUFFIX,xf-yun.com
+DOMAIN-SUFFIX,iflytek.com
+
+# ---------- 腾讯：混元 / 元宝 ----------
+DOMAIN-SUFFIX,hunyuan.tencent.com
+DOMAIN-SUFFIX,yuanbao.tencent.com
+DOMAIN-SUFFIX,hunyuan.tencentcloudapi.com
+
+# ---------- 昆仑万维：天工 ----------
+DOMAIN-SUFFIX,tiangong.cn
+DOMAIN-SUFFIX,skywork.ai
+
+# ---------- 商汤：商量 ----------
+DOMAIN-SUFFIX,sensetime.com
+
+# ---------- 上海 AI Lab：书生 ----------
+DOMAIN-SUFFIX,intern-ai.org.cn
+
+# ---------- 面壁智能 ----------
+DOMAIN-SUFFIX,modelbest.cn
+
+# ---------- 澜舟科技 ----------
+DOMAIN-SUFFIX,langboat.com
+
+# ---------- 快手：可灵 ----------
+DOMAIN-SUFFIX,klingai.com
+
+# ---------- 360：智脑 ----------
+DOMAIN-SUFFIX,ai.360.cn

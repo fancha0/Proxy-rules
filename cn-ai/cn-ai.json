@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ai.360.cn",
+        "aip.baidubce.com",
+        "aistudio.baidu.com",
+        "baichuan-ai.com",
+        "bigmodel.cn",
+        "chatglm.cn",
+        "dashscope.aliyuncs.com",
+        "deepseek.com",
+        "doubao.com",
+        "ernie.baidu.com",
+        "hailuoai.com",
+        "hunyuan.tencent.com",
+        "hunyuan.tencentcloudapi.com",
+        "iflytek.com",
+        "intern-ai.org.cn",
+        "kimi.com",
+        "klingai.com",
+        "langboat.com",
+        "minimax.chat",
+        "minimaxi.com",
+        "modelbest.cn",
+        "moonshot.cn",
+        "qianfan.baidubce.com",
+        "qianwen.com",
+        "sensetime.com",
+        "skywork.ai",
+        "stepfun.com",
+        "tiangong.cn",
+        "tongyi.aliyun.com",
+        "volcengine.com",
+        "volces.com",
+        "xf-yun.com",
+        "xfyun.cn",
+        "yiyan.baidu.com",
+        "yuanbao.tencent.com",
+        "zhipuai.cn"
+      ],
+      "domain": [
+        "bailian.console.aliyun.com",
+        "jimeng.jianying.com"
+      ]
+    }
+  ]
+}
